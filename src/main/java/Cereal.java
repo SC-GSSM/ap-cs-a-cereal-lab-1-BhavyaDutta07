@@ -34,7 +34,7 @@ public class Cereal
     public double getFiber(){
         return fiber;
     }
-    public double getCarbohydrates(){
+    public double getCarbs(){
         return carbohydrates;
     }
     public double getCups(){

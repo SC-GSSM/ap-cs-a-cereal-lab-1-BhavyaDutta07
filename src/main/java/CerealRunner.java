@@ -36,8 +36,8 @@ public class CerealRunner
                 double cups = Double.parseDouble(data[4]);
 
                 // create a new Cereal object, and add it to the ArrayList
-                Cereal a = new Cereal(name, calories, fiber, carbohydrates, cups);
-                cereals.add(a);
+                Cereal cereal = new Cereal(name, calories, fiber, carbohydrates, cups);
+                cereals.add(cereal);
 
             }
             scan.close();
@@ -56,7 +56,7 @@ public class CerealRunner
     public static void main(String[] args)
     {
         String fileName = "src/data/cerealSubset.csv";
-        CerealRunner cr = new CerealRunner(fileName);
+        CerealRunner cereal = new CerealRunner(fileName);
     }
 
 }
